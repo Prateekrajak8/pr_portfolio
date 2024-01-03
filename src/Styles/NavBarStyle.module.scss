@@ -1,0 +1,147 @@
+.navBarBlock{
+  display: grid;
+  grid-gap: 5rem;
+  .SkillCard{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5rem;
+
+    }
+.navBar {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    
+  
+  .navBarContent{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    .textStyle {
+        font-size: 25px;
+     } 
+  } 
+  .profileImage{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem
+  }
+ }
+ .aboutMeBlock{
+  display: grid;
+  // grid-gap: 1rem;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  .AboutMeTxt{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: auto;
+  }
+  .aboutMeData{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    .imageBlock{
+      
+    }
+    .abtContent{
+      display: grid;
+      grid-gap: 1rem;
+      .nameTxt{
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .pstText{
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+    .resumeButton{
+      width: 30%;
+      // height: 2rem;
+      position: relative;
+      line-height: 0;
+      padding: 1.6rem 3rem;
+      border-radius: 0.5em;
+      transition: 0.5s;
+      color: #fff;
+      background: #2506ad;
+      box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+      text-align: center;
+    }
+    .abtTxt{
+      white-space: nowrap;
+      // overflow: hidden;
+    }
+  }
+ }
+}
+.skillBlock{
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  background-color: #5504a8;
+  .AboutMeTxt{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: auto;
+  }
+  .SkillCard{
+    background-color: #33026e;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+  }
+  .CardStyle{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #2b124f;
+    border-radius:1.2rem;
+    .SkillTxt{
+      font-size: 24px;
+      font-weight: 600;
+      margin: auto;
+      
+      // border: 4rem;
+    }
+  }
+}
+.educationCard{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  // border: 1px solid grey;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px lightgray;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  .degreeName{
+    color: #012970;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .collegeName{
+    // font-size: 0.5rem;
+    padding: 0.2rem 1rem 0 1rem;
+  }
+  .cgpa{
+    color: #226d00;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.2rem 1rem 0 1rem;
+  }
+}
+.educationCard:hover {
+  transform: scale(1.05); /* Increase the scale on hover */
+}
